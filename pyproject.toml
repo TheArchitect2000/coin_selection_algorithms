@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "transactions"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pycardano = "^0.9.0"
+blockfrost-python = "^0.5.3"
+numpy = "^1.25.0"
+matplotlib = "^3.7.1"
+datetime = "^5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
